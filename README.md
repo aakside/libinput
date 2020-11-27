@@ -1,3 +1,5 @@
+This is [complyue's patch](https://github.com/complyue/libinput) on top of libinput 1.16. Follow the instructions linked below in the original README to build, and then modify/follow the [Linux-specific instructions in Dakshin Karthikeyan's article](https://medium.com/@dakshin.k1/enable-3-finger-gesture-for-click-and-drag-on-windows-and-linux-cd7165b66851) to use.
+
 libinput
 ========
 
