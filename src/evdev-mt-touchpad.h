@@ -117,6 +117,10 @@ enum tp_tap_state {
 	TAP_STATE_DRAGGING,
 	TAP_STATE_DRAGGING_WAIT,
 	TAP_STATE_DRAGGING_2,
+	TAP_STATE_DRAGGING_3,
+	TAP_STATE_MULTITAP,
+	TAP_STATE_MULTITAP_DOWN,
+	TAP_STATE_MULTITAP_PALM,
 	TAP_STATE_DEAD, /**< finger count exceeded */
 };
 
@@ -414,6 +418,7 @@ struct tp_dispatch {
 
 		bool drag_enabled;
 		bool drag_lock_enabled;
+		bool three_finger_dragging_enabled;
 
 		unsigned int nfingers_down;	/* number of fingers down for tapping (excl. thumb/palm) */
 	} tap;
